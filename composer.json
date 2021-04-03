@@ -1,0 +1,17 @@
+{
+    "name": "karol/psr-compliant-api-sdk-template",
+    "type": "project",
+    "description": "",
+    "authors": [
+        {
+            "name": "kczechowski",
+            "email": "karolcz97@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SDK\\": "src/"
+        }
+    }
+}
