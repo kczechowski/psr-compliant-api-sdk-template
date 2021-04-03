@@ -8,7 +8,11 @@
             "email": "karolcz97@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "psr/log": "^1.1",
+        "psr/http-client": "^1.0",
+        "psr/http-message": "^1.0"
+    },
     "autoload": {
         "psr-4": {
             "SDK\\": "src/"
