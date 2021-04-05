@@ -1,5 +1,5 @@
 {
-    "name": "karol/psr-compliant-api-sdk-template",
+    "name": "kczechowski/psr-compliant-api-sdk-template",
     "type": "project",
     "description": "",
     "authors": [
@@ -12,7 +12,8 @@
         "psr/log": "^1.1",
         "psr/http-client": "^1.0",
         "psr/http-message": "^1.0",
-        "psr/http-factory": "^1.0"
+        "psr/http-factory": "^1.0",
+        "nyholm/psr7": "^1.4"
     },
     "autoload": {
         "psr-4": {
